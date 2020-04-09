@@ -1,0 +1,28 @@
+{
+  "name": "namecheap-node",
+  "version": "1.0.0",
+  "description": "A NodeJS library for managing DNS Records in Namecheap",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bmorrisondev/namecheap-node.git"
+  },
+  "keywords": [
+    "nodejs",
+    "namecheap",
+    "dns"
+  ],
+  "author": "Brian Morrison II",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bmorrisondev/namecheap-node/issues"
+  },
+  "homepage": "https://github.com/bmorrisondev/namecheap-node#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "xml2js": "^0.4.23"
+  }
+}
